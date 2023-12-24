@@ -1,0 +1,72 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: content-box;
+    margin: 5px;
+
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: 1920px;
+
+}
+
+.floating-rectangle {
+    width: 1000px;
+    background-color: rgba(00, 00, 00, 0.5);
+    padding: 100px;
+    border-radius: 25px;
+    margin: 25px auto;
+}
+
+.logo {
+    width: 250px;
+    display: block;
+    margin: auto;
+
+}
+
+.logo-sottotitolo {
+    color: #00dd00;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #00dd00;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    color: white;
+}
+
+.gruppo-monopattino {
+    margin: 20px auto;
+}
+
+.nome-monopattino, .nome-via {
+    display: inline-block;
+    margin: 5px;
+}
+
+.barra-carica1, .barra-carica2, .barra-carica3{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.barra-carica1 {
+    background-color: #f5b453;
+    width: 35%;
+}
+
+.barra-carica2 {
+    background-color: #00dd00;
+    width: 60%;
+}
+
+.barra-carica3 {
+    background-color: #be4141;
+    width: 12%;
+}
